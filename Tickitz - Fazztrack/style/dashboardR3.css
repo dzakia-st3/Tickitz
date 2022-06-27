@@ -1,0 +1,161 @@
+.imgLeft {
+    width: 800px;
+    height: 100vh;
+}
+
+.imgLeft .imgLeft-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 5;
+    padding-top: 18%;
+}
+
+.imgLeft .imgLeft-content .logo img {
+    width: auto;
+    height: 80px;
+    margin-left: 22%;
+    margin-top: 13%;
+}
+
+.imgLeft .imgLeft-content .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgLeft .imgLeft-content .text h2 {
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 60px;
+    letter-spacing: 0.003em;
+    color: #FFFFFF;
+    padding-bottom: 18px;
+}
+
+.imgLeft .imgLeft-content .text h3 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.007em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.imgLeft .imgLeft-content .progress-bar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    padding-top: 46px;
+}
+
+.imgLeft .imgLeft-content .progress-bar hr {
+    position: absolute;
+    width: 3px;
+    height: 75%;
+    background-color: #FFFFFF;
+}
+
+.imgLeft .imgLeft-content .progress-bar .step {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    counter-reset: step;
+}
+
+.imgLeft .imgLeft-content .progress-bar .step ::before {
+    counter-increment: step;
+    content: counter(step);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.005em;
+}
+
+.imgLeft .imgLeft-content .progress-bar .step .bullet {
+    height: 30px;
+    width: 30px;
+    background-color: #5F2EEA;
+    border-radius: 50%;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.imgLeft .imgLeft-content .progress-bar .step .bullet-active {
+    background-color: #FFFFFF;
+    color: #5F2EEA;
+}
+
+.imgLeft .imgLeft-content .progress-bar .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 5%;
+    margin-top: 1.5%;
+    padding-bottom: 1%;
+}
+
+.imgLeft .imgLeft-content .progress-bar .text p {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.content .contentBox .header h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 26px;
+    line-height: 33px;
+    padding-top: 176px;
+    color: #121212;
+    /* identical to box height */
+    letter-spacing: 0.005em;
+}
+
+.content .contentBox .header p {
+    font-family: 'Mulish', sans-serif;
+    line-height: 23px;
+    padding-top: 10px;
+    /* identical to box height */
+    letter-spacing: 0.005em;
+
+    /* Border and body V2 */
+    color: #8692A6;
+}
+
+.content .contentBox .form .email span {
+    padding-top: 49px;
+}
+
+.content .contentBox .form .email input {
+    border-radius: 4px;
+}
+
+.content .contentBox .inputBtn input {
+    border-radius: 4px;
+    margin-top: 40px;
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 768px) {
+    .content .contentBox .header h1 {
+        padding-top: 0; 
+    }
+}

@@ -1,0 +1,26 @@
+.imgLeft {
+    height: 1024px;
+}
+
+.imgLeft .tickitz img{
+    margin-top: 45%;
+    margin-left: 19%;
+}
+
+.content .contentBox .header h1 {
+    padding-top: 20%;
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 768px) {
+
+    .content img {
+        display: flex;
+        margin-right: 60%;
+    }
+
+    .content .contentBox .header h1 {
+        padding-top: 0; 
+    }
+}

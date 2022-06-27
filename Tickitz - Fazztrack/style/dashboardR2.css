@@ -1,0 +1,45 @@
+.content .contentBox .header p {
+    width: 400px;
+}
+
+.content .contentBox .form .email span {
+    padding-top: 49px;
+}
+
+.content .contentBox .inputBtn input {
+    margin-top: 48px;
+}
+
+.content .question .question1 p {
+    width: 262px;
+    height: 19px;
+    padding-top: 32px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #8692A6;
+}
+
+.content .question .question2 p {
+    padding-top: 19px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #8692A6;
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 768px) {
+    .content .contentBox .header h1 {
+        padding-top: 0; 
+    }
+}
